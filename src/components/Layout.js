@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
       </Link>
       {children}
       <Divider />
-      <p className={pullRight}>
+      <p className={pullRight + " link"}>
         Made with <Icon name="heart" color="red" /> by Vivek
       </p>
     </Container>

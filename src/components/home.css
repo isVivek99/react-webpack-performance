@@ -1,0 +1,18 @@
+@value m-large: (min-width: 960px);
+
+.text {
+  color: aqua;
+}
+.heading-one {
+  color: gray;
+}
+
+.link {
+  color: blueviolet;
+}
+
+@media m-large {
+  .text {
+    color: red;
+  }
+}
